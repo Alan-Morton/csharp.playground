@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Push.Analytics.DomainModels\Push.Analytics.DomainModels.csproj" />
+    <ProjectReference Include="..\Push.Libaries.Data\Push.Libraries.Data.csproj" />
+  </ItemGroup>
+
+</Project>
