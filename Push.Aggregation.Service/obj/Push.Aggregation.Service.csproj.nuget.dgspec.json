@@ -1,0 +1,260 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Aggregation.Service\\Push.Aggregation.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Aggregation.Service\\Push.Aggregation.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Aggregation.Service\\Push.Aggregation.Service.csproj",
+        "projectName": "Push.Aggregation.Service",
+        "projectPath": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Aggregation.Service\\Push.Aggregation.Service.csproj",
+        "packagesPath": "C:\\Users\\alan.morton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Aggregation.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alan.morton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Analytics.DomainModels\\Push.Analytics.DomainModels.csproj": {
+                "projectPath": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Analytics.DomainModels\\Push.Analytics.DomainModels.csproj"
+              },
+              "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.DataAccess.Analytics\\Push.DataAccess.Analytics.csproj": {
+                "projectPath": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.DataAccess.Analytics\\Push.DataAccess.Analytics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Analytics.DomainModels\\Push.Analytics.DomainModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Analytics.DomainModels\\Push.Analytics.DomainModels.csproj",
+        "projectName": "Push.Analytics.DomainModels",
+        "projectPath": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Analytics.DomainModels\\Push.Analytics.DomainModels.csproj",
+        "packagesPath": "C:\\Users\\alan.morton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Analytics.DomainModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alan.morton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.DataAccess.Analytics\\Push.DataAccess.Analytics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.DataAccess.Analytics\\Push.DataAccess.Analytics.csproj",
+        "projectName": "Push.DataAccess.Analytics",
+        "projectPath": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.DataAccess.Analytics\\Push.DataAccess.Analytics.csproj",
+        "packagesPath": "C:\\Users\\alan.morton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.DataAccess.Analytics\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alan.morton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Analytics.DomainModels\\Push.Analytics.DomainModels.csproj": {
+                "projectPath": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Analytics.DomainModels\\Push.Analytics.DomainModels.csproj"
+              },
+              "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Libaries.Data\\Push.Libraries.Data.csproj": {
+                "projectPath": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Libaries.Data\\Push.Libraries.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Libaries.Data\\Push.Libraries.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Libaries.Data\\Push.Libraries.Data.csproj",
+        "projectName": "Push.Libraries.Data",
+        "projectPath": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Libaries.Data\\Push.Libraries.Data.csproj",
+        "packagesPath": "C:\\Users\\alan.morton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alan.morton\\3D Objects\\30-01-2023\\Push.Export.Tool.CDM\\Push.Libaries.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alan.morton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.3.3, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

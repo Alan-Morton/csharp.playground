@@ -1,0 +1,220 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>Push.Analytics.Dashboard</Name>
+    <RootNamespace>Push.Analytics.Dashboard</RootNamespace>
+    <SaveNodeJsSettingsInProjectFile>True</SaveNodeJsSettingsInProjectFile>
+    <NodeExePath>C:\Program Files\nodejs\node.exe</NodeExePath>
+    <JavaScriptTestFramework>Jasmine</JavaScriptTestFramework>
+    <LaunchUrl>
+    </LaunchUrl>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>64c813a4-71ce-48ae-9472-9f0ead797f06</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>node_modules\@vue\cli-service\bin\vue-cli-service.js</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <NodejsPort>1337</NodejsPort>
+    <StartWebBrowser>True</StartWebBrowser>
+    <ScriptArguments>serve</ScriptArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="dist\css\chunk-vendors.a5b3d146.css" />
+    <Content Include="dist\css\vuetify.min.css" />
+    <Content Include="public\favicon.ico" />
+    <Content Include="public\index.html" />
+    <Content Include="src\App.vue" />
+    <Content Include="src\assets\images\angry.png" />
+    <Content Include="src\assets\images\bug.png" />
+    <Content Include="src\assets\images\chart-arc.png" />
+    <Content Include="src\assets\images\chart-box-outline.png" />
+    <Content Include="src\assets\images\chart-box-plus-outline.png" />
+    <Content Include="src\assets\images\chart-box.png" />
+    <Content Include="src\assets\images\chart-multiple.png" />
+    <Content Include="src\assets\images\chart-pie.png" />
+    <Content Include="src\assets\images\chart-timeline.png" />
+    <Content Include="src\assets\images\gender-female.png" />
+    <Content Include="src\assets\images\gender-male-female.png" />
+    <Content Include="src\assets\images\gender-male.png" />
+    <Content Include="src\assets\images\haha.png" />
+    <Content Include="src\assets\images\like.png" />
+    <Content Include="src\assets\images\love.png" />
+    <Content Include="src\assets\images\push.png" />
+    <Content Include="src\assets\images\sad.png" />
+    <Content Include="src\assets\images\wow.png" />
+    <Content Include="src\components\Account.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\AnalyticsHome.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\AutomattedReports.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\CustomReports.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\Events.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\FacebookChatRate.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\FacebookConcurrent.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\FacebookDemographic.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\FacebookGeographic.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\FacebookImpressions.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\FacebookReactions.vue" />
+    <Content Include="src\components\FacebookViews.vue" />
+    <Content Include="src\components\Header.vue" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="src\components\Menu.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\menutemp.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\Overview.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\Projects.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\ReportSettings.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\RetentionGraph.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\SimulationSettings.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\StoryReactions.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\TwitchView.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\TwitterView.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\YouTubeChatRate.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\YouTubeChatStats.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\YouTubeConcurrent.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\YoutubeDemographic.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\YouTubeDevice.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\YouTubeDeviceOS.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\YouTubeGeographic.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\YouTubeLiveStats.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\YouTubeLiveViews.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\YouTubeViews.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\Js\mathlib.js" />
+    <Content Include="src\plugins\mathlib.js" />
+    <Content Include="src\plugins\vuetify.js">
+      <SubType>Code</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dist\" />
+    <Folder Include="dist\css\" />
+    <Folder Include="public\" />
+    <Folder Include="src\" />
+    <Folder Include="src\assets\" />
+    <Folder Include="src\assets\images\" />
+    <Folder Include="src\components\" />
+    <Folder Include="src\Js\" />
+    <Folder Include="src\plugins\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="babel.config.js" />
+    <Content Include="src\main.js" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+      npm run build
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
